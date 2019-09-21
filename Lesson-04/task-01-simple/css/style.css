@@ -1,0 +1,35 @@
+body {
+    
+    padding: 0 25%;
+    font-size: 18px;
+}
+
+
+.header {
+    background-color: brown;
+    font-size: 36px;
+    color: white; 
+    
+    text-align: center;
+}
+
+div img {
+    border: 3px dashed black;
+}
+
+.imgCar {
+    text-align: center;
+    
+
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
