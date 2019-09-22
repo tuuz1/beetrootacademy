@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(153, 9, 9);
+    padding: 0 15%;
+}
+
+header {
+    text-align: center;    
+}
+
+nav.gallery {
+    background-color: black;
+    float: left;
+    display: block;
+}
+
+nav div {
+    width: 20%;
+    float: left;
+    margin: 2% 0 0 4%;
+    padding: 0;
+}
+
+nav div img{
+    width: 100%; 
+}
+
+nav p {
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+article {
+    float: left;
+    padding: 0;
+    margin: 0;
+    margin-top: 4px;
+}
+
+article nav {
+    width: 25%;
+    
+    height: 290px; /*???*/
+    float:left;
+    background-color: rgb(125, 9, 9);
+}
+
+article nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+article nav li {
+    margin: 0 0 1em 0 ;
+    list-style: none;
+    
+}
+
+article nav li a{
+    color: rgb(233, 91, 17);
+}
+
+
+article main {
+    width: 55%;
+    float: left;
+    color: white;
+    padding: 0 0.5%;
+
+}
+
+article aside {
+    width: 19%;
+    height: 290px; /*???*/
+    float: left;
+    background-color: white;
+}
+
+article aside h1 {
+    margin: 0;
+    background-color: rgb(189, 189, 189);
+    text-align: center;
+}
+
+article aside hr {
+    width: 60%;
+}
+
+footer {
+    float: left;
+    width: 100%;
+    background-color: rgb(233, 91, 17);
+    color: white;
+    text-align: center;
+    margin: 1em 0;
+}
+
+footer p {
+    margin: 0;
+}
