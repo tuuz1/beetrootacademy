@@ -1,6 +1,8 @@
 body {
     background-color: rgb(153, 9, 9);
-    padding: 0 15%;
+    padding: 0 10%;
+    font-size: 18px;
+    float:left;
 }
 
 header {
@@ -97,4 +99,5 @@ footer {
 
 footer p {
     margin: 0;
+    font-size: 20px;
 }
