@@ -6,7 +6,7 @@ https://tuuz1.github.io/beetrootacademy/Lesson-01/task-01/index.html
 * task-01:
 https://tuuz1.github.io/beetrootacademy/Lesson-02/task-01/list.html
 * task-02:
-https://sergiioz.github.io/beetrootacademy/Lesson-02/task-02/content.html
+https://tuuz1.github.io/beetrootacademy/Lesson-02/task-02/content.html
 
 ## lesson-03
 * task-01:
