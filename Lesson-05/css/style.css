@@ -2,10 +2,15 @@ body {
     background: #121116;
     text-align: center;
     
+    
+}
+
+footer {
+    margin-top: 80px;
 }
 
 img {
-    margin-top: 120px;
+
 
 }
 
@@ -22,4 +27,14 @@ hr {
     height: 1px;
     background: white;
     margin-top: 0;
+}
+
+.link-logo {
+    margin: 20px;
+
+}
+
+.link-logo img{
+    display: inline-block;
+    padding: 0 17px;
 }
