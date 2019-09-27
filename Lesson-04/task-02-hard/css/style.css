@@ -1,103 +1,103 @@
 body {
-    background-color: rgb(153, 9, 9);
-    padding: 0 10%;
+    box-sizing: border-box;
     font-size: 18px;
-    float:left;
+    background-color: #990909;
+    width: 1040px;
+    margin: 0 auto;    
 }
 
-header {
-    text-align: center;    
+header a {
+    text-decoration: none;    
 }
 
-nav.gallery {
-    background-color: black;
-    float: left;
-    display: block;
-}
-
-nav div {
-    width: 20%;
-    float: left;
-    margin: 2% 0 0 4%;
-    padding: 0;
-}
-
-nav div img{
-    width: 100%; 
-}
-
-nav p {
-    color: white;
-    margin: 0;
+.header-logo {
     text-align: center;
 }
+
+.gallery {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;    
+}
+
+.gallery img {
+    width: 100%;
+}
+
+.gallery figure {
+    text-align: center;
+    margin: 20px 40px 3px;
+}
+
+.gallery a {
+    color: white;
+}
+
+.gallery a:hover {
+    text-decoration: underline;
+}
+
+.gallery a:visited {
+    color: white;
+}
+
+/* MAIN PART */
 
 article {
-    float: left;
-    padding: 0;
-    margin: 0;
-    margin-top: 4px;
+ display: flex;
+ padding-top: 5px;    
 }
 
-article nav {
+.left-side {
+    background-color: #7d0909;
+    width: 250px;
+    float: left;
     width: 25%;
     
-    height: 290px; /*???*/
-    float:left;
-    background-color: rgb(125, 9, 9);
 }
 
-article nav ul {
+.left-side ul {
+    list-style: none;
     padding: 0;
     margin: 0;
-}
-
-article nav li {
-    margin: 0 0 1em 0 ;
-    list-style: none;
     
 }
 
-article nav li a{
-    color: rgb(233, 91, 17);
+.left-side li {
+    padding-bottom: 18px;
+    
 }
 
+.left-side a {
+    color: #e95b11;
+}
 
-article main {
+.center {
+   width: 55%;
+   color: white;
+    padding: 0 5px;
+}
+
+.right-side {
+   float: right;
+   width: 20%;
+   background-color: #e3dddd;
+}
+
+.right-side h1 {
+    background-color: #bdbdbd;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.right-side hr {
     width: 55%;
-    float: left;
-    color: white;
-    padding: 0 0.5%;
-
 }
-
-article aside {
-    width: 19%;
-    height: 290px; /*???*/
-    float: left;
-    background-color: white;
-}
-
-article aside h1 {
-    margin: 0;
-    background-color: rgb(189, 189, 189);
-    text-align: center;
-}
-
-article aside hr {
-    width: 60%;
-}
-
+/* FOOTER  */
 footer {
-    float: left;
-    width: 100%;
-    background-color: rgb(233, 91, 17);
+    background-color: #e95b11;
     color: white;
-    text-align: center;
-    margin: 1em 0;
-}
-
-footer p {
-    margin: 0;
     font-size: 20px;
+    text-align: center;
 }

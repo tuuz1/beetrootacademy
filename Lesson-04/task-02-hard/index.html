@@ -11,39 +11,63 @@
 
 <body>
     <header>
-        <img src="./images/title.gif" width="50%">
+
+        <div class="header-logo">
+            <img src="./images/title.gif" alt="logo">
+        </div>
+
+        <nav class="gallery">
+
+            <div class="nav-item">
+                <a href="#">
+                    <figure>
+                        <img src="./images/img00.jpg" alt="cat">
+                        <figcaption>Home</figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="nav-item">
+                <a href="#">
+                    <figure>
+                        <img src="./images/img01.jpg" alt="baterfly">
+                        <figcaption>About</figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="nav-item">
+                <a href="#">
+                    <figure>
+                        <img src="./images/img02.jpg" alt="watch">
+                        <figcaption>Services</figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="nav-item">
+                <a href="#">
+                    <figure>
+                        <img src="./images/img03.jpg" alt="flower">
+                        <figcaption>Contact</figcaption>
+                    </figure>
+                </a>
+            </div>
+
+        </nav>
+
     </header>
 
-    <nav class="gallery">
-        <div>
-            <img src="./images/img00.jpg" alt="">
-            <p>Home</p>
-        </div>
-        <div>
-            <img src="./images/img01.jpg" alt="">
-            <p>About</p>
-        </div>
-        <div>
-            <img src="./images/img02.jpg" alt="">
-            <p>Services</p>
-        </div>
-        <div>
-            <img src="./images/img03.jpg" alt="">
-            <p>Contact</p>
-        </div>
-    </nav>
-
     <article>
-        <nav>
+
+        <aside class="left-side">
             <ul>
-                <li><a href="#" width="70%">Lorem, ipsum.</a></li>
+                <li><a href="#">Lorem, ipsum.</a></li>
                 <li><a href="#">Sapiente, accusamus.</a></li>
                 <li><a href="#">Ipsum, quit?</a></li>
                 <li><a href="#">Praesentium, excepturi?</a></li>
                 <li><a href="#">Distinetio, suscipit!</a></li>
             </ul>
-        </nav>
-        <main>
+        </aside>
+
+        <main class="center">
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio sint reiciendis, ut dignissimos,
                 sunt accusamus facere fugit incidunt iusto officiis numquam saepe provident at dolorum mollitia
                 temporibus culpa autem! Nobis, dignissimos nam? Accusamus iste, dolores laudantium vero aliquid amet
@@ -55,7 +79,8 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta asperiores itaque aliquam maxime sapiente
                 dolorum numquam ut voluptatem nulla officiis!</p>
         </main>
-        <aside>
+
+        <aside class="right-side">
             <h1>Title</h1>
             <hr>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -64,10 +89,13 @@
             <hr>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </aside>
+
     </article>
+
     <footer>
         <p>&copy; Copiright</p>
     </footer>
+
 </body>
 
 </html>
