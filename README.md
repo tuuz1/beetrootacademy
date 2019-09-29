@@ -21,4 +21,4 @@ https://tuuz1.github.io/beetrootacademy/Lesson-04/task-02-hard/index.html
 
 ## lesson-05
 * task-01
-https://tuuz1.github.io/beetrootacademy/Lesson-05/lesson-5.html
+https://tuuz1.github.io/beetrootacademy/Lesson-05/task-01/lesson-5.html
