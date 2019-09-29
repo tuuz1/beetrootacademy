@@ -3,7 +3,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 20px 40px 30px 40px;   /* bottom!!!*/
-    width: 1020px ;
+    max-width: 1020px ;
     
     box-sizing: border-box;
     margin: 0 auto;
@@ -13,11 +13,13 @@ body {
     font-size: 11px;
     color: #666666;
     overflow: hidden;
-    width: 100%;
+    width: 1020px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .top-nav ul {
-    float: left;   
+      
     list-style: none;  
 }
 
@@ -43,10 +45,9 @@ body {
 }
 
 .date {
-    float: right;
     font-size: 11px;
     margin: 11px 0;
-    display: inline-block;
+    margin-right: 40px;
 }
 
 .date span {
@@ -58,4 +59,9 @@ body {
     width: 940px;
     height: 130px;
     background:#477ab2;
+    margin: 0 40px;
+}
+
+.leng {
+    
 }

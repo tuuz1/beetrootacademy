@@ -1,0 +1,28 @@
+.stars-list {
+   display: inline-block;
+}
+
+.star {
+   display: inline-block;
+   background: url(./icon.png) no-repeat center;
+   width: 128px;
+   height: 128px;
+   opacity: 0.6;
+   transition: all 0.1s ;
+}
+
+
+
+
+.stars-list:hover .star {
+   opacity: 1;
+}
+
+
+.star:hover ~ .star {
+   opacity: 0.6; 
+}
+
+
+
+
