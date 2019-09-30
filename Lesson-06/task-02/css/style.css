@@ -33,12 +33,7 @@
     background: url(../images/Settings.png);
 }
 
-.middle a:hover {
-    display: inline-block;
-    width: 67px;
-    height: 67px;
-    background: url(./images/Tablet.png);
-}
+
 
 .main div p {
     width: 220px;
