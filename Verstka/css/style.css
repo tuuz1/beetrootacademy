@@ -1,15 +1,19 @@
 body {
-    line-height: 18px;
+    /* line-height: 18px; */
     font-family: Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 20px 40px 30px 40px;   /* bottom!!!*/
     max-width: 1020px ;
     
-    box-sizing: border-box;
+    
     margin: 0 auto;
 }
 
-.top-nav {
+/* HEADER  */
+
+/* HEADER TOP  */
+
+.header-top {
     font-size: 11px;
     color: #666666;
     overflow: hidden;
@@ -18,12 +22,11 @@ body {
     justify-content: space-between;
 }
 
-.top-nav ul {
-      
+.header-top ul {      
     list-style: none;  
 }
 
-.top-nav li {
+.header-top li {
     display: inline;  
     border-left: 1px solid #666666;
     padding: 0 15px;
@@ -32,16 +35,21 @@ body {
     font-size: 11px;
 }
 
-.top-nav li:first-child {
+.header-top li:first-child {
     border: none;
 }
 
-.top-nav a:visited {
+.header-top a:hover {
+    text-decoration: underline;
+}
+
+.header-top a:visited {
     color: #666666;
 }
 
-.top-nav a {
+.header-top a {
     text-decoration: none;
+    color: #666666;
 }
 
 .date {
@@ -55,13 +63,87 @@ body {
     color: white;
 }
 
-.header {
-    width: 940px;
-    height: 130px;
-    background:#477ab2;
+/* HEADER MIDDLE  */
+
+.header-middle {
+    background-color: #4f83bc;
     margin: 0 40px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 130px;
 }
 
-.leng {
-    
+.header-middle-top {
+    display: flex;
+    justify-content: space-between;
 }
+
+/* HEADER MIDDLE LEFT  */
+
+.header-middle-left  {
+    display: flex;
+}
+
+.left-text {
+   margin-left: 15px;
+}
+
+.left-text p {    
+    font-size: 48px;    
+    font-weight: bold;
+    color: #fff; 
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.header-title + p {
+    font-size: 12px;
+    color: #99ccff;
+    margin: 0;   
+}
+
+/* HEADER MIDDLE RIGHT  */
+
+    /* PAGE LANGUAGES  */
+.page-lang ul {      
+    list-style: none;  
+}
+
+.page-lang li {
+    display: inline;  
+    border-left: 1px solid #fff;
+    padding: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.page-lang li:first-child {
+    border: none;
+}
+
+.page-lang a:hover {
+    text-decoration: underline;
+}
+
+.page-lang a:visited {
+    color: #fff;
+}
+
+.page-lang a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* PAGE SEARCH  */
+
+/* NAVIGATION */
+
+.header-nav {
+    height: 50px;
+    background-color: #e6e6e6;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
