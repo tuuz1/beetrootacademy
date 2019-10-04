@@ -16,22 +16,45 @@
     display: inline-block;
     width: 67px;
     height: 67px;
-    background: url(../images/Tablet0.png) no-repeat center;
+    background: url(../images/Tablet_white.png) no-repeat center;
 }
 
 .left a:hover {
     display: inline-block;
     width: 67px;
     height: 67px;
-    background: url(../images/Tablet.png) no-repeat center;
+    background: url(../images/Tablet_transparent.png) no-repeat center;
 }
 
 .middle a  {
     display: inline-block;
     width: 67px;
     height: 67px;
-    background: url(../images/Settings.png);
+    background: url(../images/Settings_white.png);
 }
+
+.middle a:hover {
+    display: inline-block;
+    width: 67px;
+    height: 67px;
+    background: url(../images/Setting_transparent.png) no-repeat center;
+}
+
+.right a  {
+    display: inline-block;
+    width: 67px;
+    height: 67px;
+    background: url(../images/Dashboard.png);
+}
+
+.right a:hover {
+    display: inline-block;
+    width: 67px;
+    height: 67px;
+    background: url(../images/Dashboard_transparent.png) no-repeat center;
+}
+
+
 
 
 
@@ -40,7 +63,7 @@
 }
 
 .main div p + p {
-    color: #9d9d9d;
+    color: #9d9d9d ;
 }
 
 .title {
