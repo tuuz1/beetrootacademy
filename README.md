@@ -31,10 +31,10 @@ https://tuuz1.github.io/beetrootacademy/Lesson-06/task-02/index.html
 ## lesson-07
 * task-01
 https://tuuz1.github.io/beetrootacademy/Lesson-07/task-01/index.html
+* task-01.beta
+https://tuuz1.github.io/beetrootacademy/Lesson-07/task-02/index_beta.html
 * task-02
 https://tuuz1.github.io/beetrootacademy/Lesson-07/task-02/index.html
-* task-02.beta
-https://tuuz1.github.io/beetrootacademy/Lesson-07/task-02/index_beta.html
 
 ## Other 
 * rating
