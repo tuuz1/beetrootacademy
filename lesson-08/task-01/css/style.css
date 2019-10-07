@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  display: flex;
+
+}
+
+main  {
+  background-color: #fdde7e;
+  width: 1200px;
+  height: 600px;
+  border: 0 solid;
+  padding: 0 30px;
+  font-family: "Miso";
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px auto;
+}
+
+.container {
+  width: 360px;
+  height: 440px;
+  background-color: #fff;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+  padding-top: 28px;
+}
+
+
+
+.center {
+  height: 500px;
+  padding-top: 38px;
+  padding-bottom: 8px;
+}
+
+.center .text {
+  margin-bottom: 40px;
+}
+
+.price {
+  font-size: 70px;
+  color: #02995b;
+  font-weight: bold;
+}
+
+.cup {
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+.cup-name {
+  font-size: 56px;
+}
+
+.text {
+  font-size: 24px;  
+  width: 154px;  
+  text-align: center;
+
+  margin-bottom: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+ /* align-items: stretch; 
+    font-family: Miso;    
+    height: 600px;
+    max-width: 1200px;
+    padding: 80px 0;
+    background-color: #fdde7e; 
+    
+}
+
+.container {
+    
+    width: 360px;
+    height: 441px;
+    background-color: rgb(238, 169, 142);
+  
+    font-family: Miso;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 0px solid;
+  }
+  
+  .price {
+    font-size: 70px;
+    color: #02995b;
+    font-weight: bold;  
+    margin-top: 20px;
+
+    flex: auto;
+  }
+  
+  img {
+    
+    flex: auto;
+  }
+  .cup-name {
+    font-size: 56px;  
+  }
+  
+  
+  .text {
+    font-size: 24px;  
+    width: 154px;  
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .container:hover {
+    transform: scale(1.2);
+   
+    transition: transform 1s ;
+  }
+  
+  .container:not(:hover) {
+    transition: transform 1s ;
+  } */
