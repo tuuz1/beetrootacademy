@@ -91,3 +91,7 @@ footer {
     margin-top: 70px;
 }
 
+footer p {
+    margin-left: 10px;
+    font-size: 13px;
+}
