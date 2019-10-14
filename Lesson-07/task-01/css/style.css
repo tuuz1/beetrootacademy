@@ -137,7 +137,7 @@ ul {
   .text-container::before {
     content: "";
     height: 100%;
-    display: inline-block;
+    /* display: inline-block; */
     vertical-align: middle;
     width: 0;
      

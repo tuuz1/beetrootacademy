@@ -137,6 +137,32 @@ body {
 
 /* PAGE SEARCH  */
 
+.search {
+    width: 263px;
+    height: 26px;
+    position: relative;
+}
+
+.input-search {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+.поле_поиска {
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.75);
+    position: absolute;
+    left: 696px;
+    top: 98px;
+    width: 263px;
+    height: 26px;
+    z-index: 140;
+  }
+  
+
 /* NAVIGATION */
 
 .header-nav {

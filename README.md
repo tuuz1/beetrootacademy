@@ -42,6 +42,12 @@ https://tuuz1.github.io/beetrootacademy/Lesson-08/task-01/index.html
 * task-02
 https://tuuz1.github.io/beetrootacademy/Lesson-08/task-02/index.html
 
+## lesson-09
+* task-01
+https://tuuz1.github.io/beetrootacademy/Lesson-09/task-01/index.html
+* task-02
+https://tuuz1.github.io/beetrootacademy/Lesson-09/task-02/index.html
+
 ## Other 
 * rating
 https://tuuz1.github.io/beetrootacademy/Other/rating/index.html

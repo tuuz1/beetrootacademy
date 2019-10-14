@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #454f53;
+}
+
+header {
+    position: absolute;
+    right: 0;
+  
+    margin-top: -105px;
+}
+
+
+
+.header-top {
+    padding-left: 60px;
+    padding-top: 50px;
+    width: 876px;
+    height: 200px;
+    background-color: #000;
+}
+
+.header-top p {
+    font: 400 15px "Proxima Nova" ;
+    color: #767676;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.header-top h1{
+    font: 400 48px "Playfair Display" ;
+    color: #fefefe;    
+    position: absolute;
+    margin-bottom: 20px;
+}
+
+.header-top h1::after {
+    content: "";
+    border-right: 2px solid #afb1b3;
+    position: absolute;
+    height: 40px;
+    top: 14px;
+    left: 352px;
+}
+
+
+
+header hr {
+    background-color:#303030;
+    height: 2px;
+    border: none;
+    position: relative;
+    bottom: -70px;
+}
+
+.header-button {
+    position: absolute;
+    width: 812px;
+    height: 76px;
+    background-color: #fac02d;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 250px;
+}
+
+.material-icons {
+    color: #fff;
+    font-size: 42px;
+    opacity: 0.6;
+}
+
+.material-icons:nth-child(4) {
+    opacity: 1;
+}
+
+
+
+
+main {
+    background-color: #fff;
+    margin: 150px auto;
+    padding-top: 270px;
+    /* text-align: center; */
+    padding-left: 130px;
+    padding-right: 130px;
+    max-width: 1060px;
+    
+}
+
+.header-main {
+    /* text-align: center; */
+    font: 400 78px "Futura PT";
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+main p:nth-child(2) {
+    font: 400 italic 30px "Georgia";
+    color: #8f8f8f;
+    margin-bottom: 60px;
+}
+
+main p:nth-child(3) {
+    
+}
+
+main p:nth-child(3),
+main p:nth-child(3) + p {
+    font: 400 26px "Georgia";
+    line-height: 40px;
+    margin-bottom: 36px;
+    text-align: justify;
+}
+
