@@ -70,8 +70,6 @@ h1 {
 	text-decoration: none;
 	top: 120px;
     z-index: -1;
-    width: 35px;
-    height: 35px;
 
 }
 
@@ -85,8 +83,6 @@ h1 {
 /* .img-wrapper:not(:hover) img {
     transition: 15s ease;
 } */
-
-
 
 .icon_hover:hover {
 	color: rgb(161, 161, 180);
