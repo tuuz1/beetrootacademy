@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    /* width: 1170px; */
+    margin: auto;
+}
+
+/* HEADER */
+
+header {
+    text-align: center;
+    color: #3c3c3c;
+    max-width: 570px;
+    margin: 100px auto 60px;
+    font-size: 16px;
+}
+
+
+h1 {
+    font-size: 34px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.hr {
+    width: 46px;
+    height: 4px;
+    background-color: #dddbdb;
+    margin: 20px auto 40px;
+}
+
+
+/* MAIN */
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+
+.item {
+    position: relative;	
+    margin: 0 15px;
+}
+
+.gallery img {
+    width: 270px;
+    height: 270px;
+}
+
+.img-wrapper {
+	position: relative;
+	width: 270px;
+	height: 270px;
+    font-size: 0;	
+    overflow: hidden;
+}
+
+.img-wrapper div a {
+	position: absolute;
+	font-size: 35px;
+	color: #ededed;
+	text-decoration: none;
+	top: 120px;
+    z-index: -1;
+    width: 35px;
+    height: 35px;
+
+}
+
+.img-wrapper:hover img {
+    transform: scale(2);
+    transition: 15s ease;
+}
+
+/* Плавная обратная анимация */
+
+/* .img-wrapper:not(:hover) img {
+    transition: 15s ease;
+} */
+
+
+
+.icon_hover:hover {
+	color: rgb(161, 161, 180);
+}
+
+.icon_instagram {
+	left: 65px;
+}
+
+.icon_facebook {
+	left: 120px;
+}
+
+.icon_twitter {
+	left: 175px;
+}
+
+.img-wrapper:hover div a {
+	z-index: 3;
+}
+
+.wiki {
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -2;
+	background-color: rgba(0, 0, 0, .4);
+}
+
+.img-wrapper:hover .wiki {
+	z-index: 2;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 700;
+
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+h2 + p {
+    font-size: 14px;
+    color: #646464;
+    margin-bottom: 30px;
+ 
+}

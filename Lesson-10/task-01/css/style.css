@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: #b07cf7;
+}
+
+.container {
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  background-color: #b07cf7;
+
+  text-align: center;
+
+  max-width: 1200px;
+
+  margin: auto;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+header {
+  margin: 0 auto;
+  padding-top: 100px;
+  width: 570px;
+}
+
+h1 {
+  font-size: 90px;
+  /* line-height: 25px; */
+  font-weight: bold;
+}
+
+.header-title {
+  font-size: 16px;
+  
+  margin-top: 30px;
+}
+
+main {
+  margin-top: 45px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+li {
+  /* max-width: 370px; */
+  min-height: 310px;
+  list-style: none;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex: 0 1 370px;
+  padding: 25px;
+
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+
+}
+
+
+
+.date {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  
+
+
+  width: 60px;
+  height: 60px;
+  
+  font-size: 21px;
+  line-height: 27px;
+  text-transform: uppercase;
+  font-weight: 900;
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 5px;
+
+
+}
+
+.date-number {
+  font-size: 32px;
+  font-weight: 700;
+
+}
+
+
+.item h2 {
+  margin-bottom: 20px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.description {
+  font-size: 13px;
+  opacity: .7;
+}
+
+button {
+  font-size: 20px;
+  background-color: rgb(247, 43, 59);
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+  width: 200px;
+  height: 55px;
+  text-transform: uppercase;
+  color: white;
+  outline: none;
+  border:none;
+  margin-bottom: 50px;
+}
+
+button:active {
+  border: 2px solid #9a5af3 ;
+  
+}
+
+
