@@ -57,8 +57,6 @@ h1 {
 
 .img-wrapper {
 	position: relative;
-	width: 270px;
-	height: 270px;
     font-size: 0;	
     overflow: hidden;
 }
