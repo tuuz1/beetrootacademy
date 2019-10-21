@@ -56,6 +56,6 @@ https://tuuz1.github.io/beetrootacademy/Lesson-10/task-02/index.html
 
 ## Other 
 * rating
-https://tuuz1.github.io/beetrootacademy/Other/rating/index.html
+https://tuuz1.github.io/beetrootacademy/Other/rating_v1/index.html
 * bubble
 https://tuuz1.github.io/beetrootacademy/Other/bubble/index.html
