@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Miso";
+    src: url(../fonts/miso.otf);
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Miso";
+    src: url(../fonts/miso-bold.otf);
+
+    font-weight: bold;
+    font-style: normal;
+}
