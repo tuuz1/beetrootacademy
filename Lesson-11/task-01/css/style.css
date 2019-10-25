@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  display: inline-block;  
+  text-decoration: none;
+  color: inherit;
+}
+
+li { 
+  list-style: none;
+}
+
+.container {
+  max-width: 1070px;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 100%;  /* ADAPTIVE */
+}
+
+/* --------- STYLE --------- */
+
+/* --------- DESK ONE -------  */
+
+.desk__one__background {
+  background: url(../images/background_1.jpg);
+  height: 100%;
+  /* ADAPTIVE */
+  background-size: cover;
+  background-position: center;
+}
+
+.desk__one {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  height: 100%;
+}
+
+/* ---------------- HEADER ------------- */
+
+.desk__one__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  flex-wrap: wrap;
+}
+
+.header__menu__items {
+  display: flex;  
+  flex-wrap: wrap;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.menu__item {
+  margin-left: 36px;
+  border-top: 3px solid transparent;
+  padding-top: 9px;
+}
+
+.menu__item:hover {
+  border-color: #ff6033;
+}
+
+/* ----------------- TEXT BLOCK ------------- */
+
+.wrapper {
+  flex-grow: 1;
+
+  display: flex;  
+  align-items: center;
+}
+
+
+.text__block {
+  max-width: 380px;
+}
+
+.text__block__header {
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: 35px;
+}
+
+.text__block__text {
+  font-size: 17px;
+  margin-bottom: 35px;
+  line-height: 27px;
+}
+
+.btn {
+  font-size: 20px;
+  text-transform: uppercase;
+  background-color: rgb(255, 96, 51);
+  color: white;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+  padding: 14px 46px 14px 24px;
+  outline: none;
+  border: 2px solid transparent;
+  font-weight: 300;
+}
+
+.btn:active {
+  border: 2px solid whitesmoke;
+}
+
+/* ----------DESK TWO ---------- */
+
+.desk__two  {
+  background: url(../images/background_2.jpg);
+  height: 100%;
+  color: white;
+}
+
+.wrapper__desk__two {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
+
+.block_width_big {
+  max-width: 510px;
+}
+
+.font_size_big {
+  font-size: 90px;
+}
