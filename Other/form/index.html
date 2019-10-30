@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/bba3badd90.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="https://edifear.com/api/v1/kotiki" method="POST">
+            <div class="title">
+                <h1>Sign Up</h1>
+            </div>
+            <div class="username__wrapper"></div>
+            <div class="form__box">
+                <input type="text" name="name" id="" class="input__name" placeholder="Your name...">
+            </div>
+            <div class="form__box">
+                <input type="text" name="surname" id="" class="input__surname" placeholder="Your surname...">
+            </div>
+            <div class="form__box">
+                <select name="country" id="">
+                    <option value="" selected disabled hidden>Country</option>
+                    <option value="Ukraine">Ukraine</option>
+                    <option value="Poland">Poland</option>
+                    <option value="Great_Britain">Great Britain</option>
+                </select>
+            </div>
+            <div class="form__box">
+                <textarea name="about_me" id="" cols="30" rows="10" class="input__about-me"
+                    placeholder="About me..."></textarea>
+            </div>
+            <div class="form__box">
+                <label for="gender">Gender:</label>
+
+                <input type="radio" id="gender__male" name="gender" value="male">
+                <label for="gender__male">Male</label>
+                <input type="radio" id="gender__female" name="gender" value="female">
+                <label for="gender__female">Female</label>
+                <input type="radio" id="gender__other" name="gender" value="other">
+                <label for="gender__other">Other</label>
+            </div>
+            <div class="form__box">
+                <label for="">Food:</label>
+
+                <input type="checkbox" id="food__meat" name="food-meat">
+                <label for="food__meat">Meat</label>
+                <input type="checkbox" id="food__fish" name="food-fish">
+                <label for="food__fish">Fish</label>
+                <input type="checkbox" id="food__vegetable" name="food-vegetable" value="vegetable">
+                <label for="food__vegetable">Vegetable</label>
+            </div>
+            <div class="form__box">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Your password...">
+            </div>
+            <div class="form__box">
+                <input type="checkbox" name="agree" id="agree" checked>
+                <label for="agree">I agree</label>
+            </div>
+            <div class="form__box">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

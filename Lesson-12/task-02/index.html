@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bba3badd90.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Sign In</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <img src="./images/tesla_logo.png" alt="logotype" class="logo">
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="list__item"><a href="#login" class="list__link">Login</a></li>
+                            <li class="list__item"><a href="#signUp" class="list__link">Sign Up</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <section class="form">
+            <div class="container">
+
+                <div class="form__wrapper" id="login">
+                    <form action="" method="GET">
+                        <div class="form__box">
+                            <div class="input__wrapper">
+                                <i class="far fa-envelope"></i>
+                                <input class="form__input" type="email" name="userEmail" id=""
+                                    placeholder="example@mail.ua" required>
+                            </div>
+                        </div>
+                        <div class="form__box">
+                            <div class="input__wrapper">
+                                <i class="fas fa-lock"></i>
+                                <input class="form__input" type="password" name="password" id=""
+                                    placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;"
+                                    required minlength="6">
+                            </div>
+                        </div>
+
+                        <div class="form__box">
+                            <div class="checkbox__wrapper">
+                                <input type="checkbox" name="rememberMe" id="remember" checked>
+                                <label for="remember" class="form__label--checkbox">
+                                    <span class="checkbox-on">&#10004;</span>
+                                    remember me
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form__box">
+                            <div class="button__wrapper">
+                                <button type="submit" class="btn">Next<i
+                                        class="fas fa-angle-right btn-arrow"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- SIGN UP FORM  -->
+
+                <div class="form__wrapper" id="signUp">
+                    <form action="" method="GET">
+                        <div class="form__box">
+                            <div class="input__wrapper">
+                                <i class="fas fa-user"></i>
+                                <input class="form__input" type="text" name="user" id="" placeholder="Alex Novak"
+                                    required minlength="3">
+                            </div>
+                        </div>
+                        <div class="form__box">
+                            <div class="input__wrapper">
+                                <i class="far fa-envelope"></i>
+                                <input class="form__input" type="email" name="userEmail" id=""
+                                    placeholder="example@mail.ua" required>
+                            </div>
+                        </div>
+                        <div class="form__box">
+                            <div class="input__wrapper">
+                                <i class="fas fa-lock"></i>
+                                <input class="form__input" type="password" name="password" id=""
+                                    placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;"
+                                    required minlength="6">
+                            </div>
+                        </div>
+
+                        <div class="form__box">
+                            <div class="checkbox__wrapper">
+                                <input type="checkbox" name="rememberMe" id="agree" checked required>
+                                <label for="agree" class="form__label--checkbox">
+                                    <span class="checkbox-on">&#10004;</span>
+                                    i agree something
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form__box">
+                            <div class="button__wrapper">
+                                <button type="submit" class="btn">Sign Up<i
+                                        class="fas fa-angle-right btn-arrow"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+
+</body>
+
+</html>

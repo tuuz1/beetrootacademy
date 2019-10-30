@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.container  {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form__box {
+    margin-bottom: 10px;
+}
