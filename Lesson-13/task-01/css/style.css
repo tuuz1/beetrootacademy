@@ -1,0 +1,175 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 17px;
+}
+
+a {
+  display: inline-block;  
+  text-decoration: none;
+  color: inherit;
+}
+
+li { 
+  list-style: none;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* ---------------- STYLE ------------- */
+
+.header {
+  background: url(../images/background-header.jpg) no-repeat top right;
+  background-size: cover;
+  height: 100vh; 
+}
+
+.header__inner {
+  color: #fff;
+  height: 100vh;
+  width: 630px;
+  max-width: 100%;
+  text-align: center;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header__logo {
+  margin-bottom: 90px;
+}
+
+.header__title {
+  font-weight: 700;
+  font-size: 54px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.header__text {
+  font-size: 15px;
+  line-height: 29px;
+  letter-spacing: .6px;
+  text-transform: uppercase;
+  /* margin-bottom: 230px; */
+
+}
+
+.header__scroll {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+}
+
+/* ------------------------- ABOUT US -------------------  */
+
+.aboutUs {
+  padding: 160px 0;
+}
+
+.section__border {
+  max-width: 900px;
+  margin: 0 auto;
+  border: 2px solid #3c3c3c;
+}
+
+.section__title {
+  font-size: 34px;
+  font-weight: 700;
+  color: #3c3c3c;
+  text-align: center;
+  letter-spacing: 4px;
+  padding: 0 100px;
+  text-transform: uppercase;
+}
+
+.section__text {
+  font-size: 16px;
+  font-weight: 300;
+  max-width: 100%;
+  width: 560px;
+  margin: 0 auto;
+  line-height: 24px;
+}
+
+.text__element {
+  text-align: center;
+  max-width: 100%;
+}
+
+
+/* ------------------------- SERVICES -------------------  */
+
+.services {
+  background: url(../images/background-services.jpg) no-repeat top right;
+  background-size: cover;
+
+  padding: 130px 0 110px;
+}
+
+.section__border--white {
+  border-color: #fff;
+}
+
+.section--white {
+  color: #fff;
+}
+
+.section__title--white {
+  color: #fff;
+}
+
+/* ------------------------- OFFER -------------------  */
+
+.offer {
+  padding: 110px 0;
+}
+
+
+/* ------------------------- GALLERY -------------------  */
+
+
+@media (max-width: 768px) {
+
+  .section__text {
+    max-width: 480px;
+  }
+
+}
+
+@media (max-width: 568px) {
+
+  .section__border {
+    border: none;    
+  }
+
+  .section__title {
+    padding: 0;
+  }
+
+  .section__text {
+    max-width: 200px;
+  }
+
+  .header__title {
+    font-size: 42px;
+  }
+
+}
