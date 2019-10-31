@@ -156,6 +156,14 @@ li {
 
 @media (max-width: 568px) {
 
+  .header__title {
+    font-size: 18px;
+  }
+
+  .header__text {
+    font-size: 10px;
+  }
+
   .section__border {
     border: none;    
   }
@@ -168,8 +176,13 @@ li {
     max-width: 200px;
   }
 
-  .header__title {
-    font-size: 42px;
+  .aboutUs {
+    padding: 60px 0;
+  }
+
+  .services {
+    background-position-x: 75%;
+    padding: 60px 0;
   }
 
 }
