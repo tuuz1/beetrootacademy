@@ -70,6 +70,12 @@ https://tuuz1.github.io/beetrootacademy/Lesson-12/task-02/index_(beta).html
 * task-01
 https://tuuz1.github.io/beetrootacademy/Lesson-13/task-01/index.html
 
+## JavaScript
+
+## lesson-01
+* task-01
+https://tuuz1.github.io/beetrootacademy/Lesson-01-js/
+
 ## Other 
 * rating
 https://tuuz1.github.io/beetrootacademy/Other/rating_v1
