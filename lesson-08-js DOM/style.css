@@ -1,0 +1,37 @@
+.modal {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+#light-btn {
+    margin-top: 20px;
+}
+
+.tr-light {
+    list-style-type: none;
+}
+
+.tr-light li {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 50%;
+    opacity: .1;
+}
+
+.red {
+    background-color: red;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: green;
+}
+
+.on {
+    opacity: 1 !important;
+}
