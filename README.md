@@ -83,3 +83,5 @@ https://tuuz1.github.io/beetrootacademy/Other/rating_v1
 https://tuuz1.github.io/beetrootacademy/Other/bubble/index.html
 * toDoList 
 https://tuuz1.github.io/beetrootacademy/toDoList
+* Exam
+https://tuuz1.github.io/beetrootacademy/exam
