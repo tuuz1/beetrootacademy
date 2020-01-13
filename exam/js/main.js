@@ -11,7 +11,7 @@ $.get('https://199.247.3.125:1337/sliders').then((data) => {
         $('.news__slider').append(`
             <div class="slide">
                 <div class="slide__image">
-                    <img src="http://199.247.3.125:1337/${data[i].photo.url}" alt="">
+                    <img src="https://199.247.3.125:1337/${data[i].photo.url}" alt="">
                 </div>
                 <div class="slide__content-wrapper">
                     <div class="slide__text-wrapper">
@@ -23,7 +23,7 @@ $.get('https://199.247.3.125:1337/sliders').then((data) => {
                     </div>
                     <div class="slide__info">
                         <div class="info__author-photo">
-                            <img src="http://199.247.3.125:1337/" alt="">
+                            <img src="https://199.247.3.125:1337/" alt="">
                         </div>
                         <div class="info__text-wrapper">
                             <div class="info__author-name">
