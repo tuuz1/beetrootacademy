@@ -84,4 +84,4 @@ https://tuuz1.github.io/beetrootacademy/Other/bubble/index.html
 * toDoList 
 https://tuuz1.github.io/beetrootacademy/toDoList
 * Exam
-https://tuuz1.github.io/beetrootacademy/exam
+https://tuuz1.github.io/beetrootacademy/exam/index.html
