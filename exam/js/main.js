@@ -6,7 +6,7 @@ let newsAuthorPhoto = [];
 let newsDate = [];
 let qtySlides = 4;
 
-$.get('http://199.247.3.125:1337/sliders').then((data) => {
+$.get('https://199.247.3.125:1337/sliders').then((data) => {
     for (let i = 0; i < qtySlides; i++) {
         $('.news__slider').append(`
             <div class="slide">
