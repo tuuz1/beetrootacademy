@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+// @import 'rating.scss';
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+}
+img {
+    width: 100%;
+}
+.body-wrapper {
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+.basket-icon,
+.card-icon,
+.message-icon {
+    fill: #fff;
+}
+// .card-icon {
+//     fill: #fff;
+
+// }
+// .message-icon {
+//     fill: #fff;
+    
+// }
+
+
+.tab {
+    &__wrapper {
+        max-width: 600px;
+        height: 540px;
+        background-color: #212534;
+    }
+    &__header {
+        background-color: #2b3040;
+    }
+}
+
+.navigation {
+    &__list {
+        display: flex;
+        justify-content: space-around;
+    }
+    &__item {
+        opacity: .6;
+        cursor: pointer;
+       
+        &-inner {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 110px;
+            width: 150px;
+
+        }
+        &-img {
+            width: 25px;
+            height: 25px;
+        }
+        &-text {
+            font-size: 1.2rem;
+            margin-top: 5px;
+        }
+    }
+}
+
+
+
+.tab__pane-1 {
+    display: flex;
+    padding: 45px;
+
+    .pane__left {
+        &-photo {
+            width: 160px;
+            height: 230px;
+        }
+    }
+
+    .pane__right {
+        margin-left: 45px;
+
+        &-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+
+            &-left {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                
+            }
+            &-top {
+                  font-size: 2rem;  
+            }
+            &-bottom {
+                margin-top: 10px;
+            }
+        }
+        &-main {
+            color: #b7bacd;
+            margin-bottom: 40px;
+        }
+        &-footer {
+            display: flex;
+            justify-content: space-between;
+
+            &-left {
+                &-discount {
+                    // font-size: .8rem;
+                    color: #fedc3f;
+                    font-weight: 700;
+                }
+                &-price {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+}
+
+.btn {
+    width: 170px;
+    height: 60px;
+    background-color: #13e28d;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 2px;
+}
+
+.tab-pane {
+    display: none;
+}
+
+.show {
+    display: flex;
+}
+.active {
+    opacity: 1;
+    border-bottom: 2px solid white;
+}

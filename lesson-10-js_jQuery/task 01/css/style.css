@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+}
+
+.body-wrapper {
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.basket-icon,
+.card-icon,
+.message-icon {
+  fill: #fff;
+}
+
+.tab__wrapper {
+  max-width: 600px;
+  height: 540px;
+  background-color: #212534;
+}
+.tab__header {
+  background-color: #2b3040;
+}
+
+.navigation__list {
+  display: flex;
+  justify-content: space-around;
+}
+.navigation__item {
+  opacity: 0.6;
+  cursor: pointer;
+}
+.navigation__item-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 110px;
+  width: 150px;
+}
+.navigation__item-img {
+  width: 25px;
+  height: 25px;
+}
+.navigation__item-text {
+  font-size: 1.2rem;
+  margin-top: 5px;
+}
+
+.tab__pane-1 {
+  display: flex;
+  padding: 45px;
+}
+.tab__pane-1 .pane__left-photo {
+  width: 160px;
+  height: 230px;
+}
+.tab__pane-1 .pane__right {
+  margin-left: 45px;
+}
+.tab__pane-1 .pane__right-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.tab__pane-1 .pane__right-header-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.tab__pane-1 .pane__right-header-top {
+  font-size: 2rem;
+}
+.tab__pane-1 .pane__right-header-bottom {
+  margin-top: 10px;
+}
+.tab__pane-1 .pane__right-main {
+  color: #b7bacd;
+  margin-bottom: 40px;
+}
+.tab__pane-1 .pane__right-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.tab__pane-1 .pane__right-footer-left-discount {
+  color: #fedc3f;
+  font-weight: 700;
+}
+.tab__pane-1 .pane__right-footer-left-price {
+  font-size: 2rem;
+}
+
+.btn {
+  width: 170px;
+  height: 60px;
+  background-color: #13e28d;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 2px;
+}
+
+.tab-pane {
+  display: none;
+}
+
+.show {
+  display: flex;
+}
+
+.active {
+  opacity: 1;
+  border-bottom: 2px solid white;
+}
+
+/*# sourceMappingURL=style.css.map */

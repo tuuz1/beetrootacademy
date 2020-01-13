@@ -1,0 +1,30 @@
+
+.text {
+    width: 500px;
+    margin: 50px;
+}
+.textarea {
+    width: 500px;
+    height: 100px;
+    display: none;
+} 
+
+
+/*
+.block {
+    border: 2px solid;
+    width: 500px;
+    height: 150px;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+.btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+}
+*/
+

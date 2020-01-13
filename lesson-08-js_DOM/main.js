@@ -55,3 +55,5 @@ lightBtn.addEventListener('click', () => {
         i = 0;
     };
 });
+
+

@@ -1,0 +1,32 @@
+.rating {
+    float: left;
+ }
+ 
+ .material-icons {
+    font-size: 70px;
+ }
+ 
+ input {
+    position: absolute;
+    opacity: 0;
+ }
+ 
+ label {
+    position: relative;
+    left: 0;
+    float: right;
+ }
+ 
+  label i{
+    color: red;
+ }
+ 
+ input:checked ~ label i {
+    color: blue;
+ }
+ 
+ label:hover i,
+ label:hover ~  label i
+ {
+    color: blue;
+ }
