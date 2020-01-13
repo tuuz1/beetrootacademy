@@ -4,6 +4,14 @@
 
 $title-font: 'Gotham', sans-serif;
 
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -27,6 +35,10 @@ a {
     font-family: 'OpenSans', sans-serif;
     color: #4b5562;
 }
+
+
+
+
 .liner {
     width: 60px;
     height: 1px;
@@ -51,6 +63,9 @@ a {
     cursor: pointer;
     font-weight: 700;
     color: #2c4058;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .btn:active {
     box-shadow: 0 0 5px rgba(0,0,0, .5);
@@ -71,7 +86,6 @@ a {
 }
 
 .navbar {
-
 
     &__dot {
         width: 10px;
@@ -103,3 +117,4 @@ a {
 @import 'header';
 @import 'projects';
 @import 'news';
+@import 'gallery';

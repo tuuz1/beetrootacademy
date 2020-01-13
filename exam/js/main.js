@@ -6,12 +6,12 @@ let newsAuthorPhoto = [];
 let newsDate = [];
 let qtySlides = 4;
 
-$.get('http://199.247.3.125:1337/sliders').then((data) => {
+$.get('https://bo.edifear.com/sliders').then((data) => {
     for (let i = 0; i < qtySlides; i++) {
         $('.news__slider').append(`
             <div class="slide">
-                <div class="slide__image">
-                    <img src="http://199.247.3.125:1337/${data[i].photo.url}" alt="">
+                <div class="slide__image">                
+                    <img src="https://bo.edifear.com/${data[i].photo.url}" alt="">
                 </div>
                 <div class="slide__content-wrapper">
                     <div class="slide__text-wrapper">
@@ -23,7 +23,7 @@ $.get('http://199.247.3.125:1337/sliders').then((data) => {
                     </div>
                     <div class="slide__info">
                         <div class="info__author-photo">
-                            <img src="http://199.247.3.125:1337/" alt="">
+                            <img src="https://bo.edifear.com/" alt="">
                         </div>
                         <div class="info__text-wrapper">
                             <div class="info__author-name">
@@ -63,7 +63,7 @@ $('.js-scroll').click(function (event) {
 
     $('html, body').animate({
         scrollTop: $targetElem.offset().top
-    }, 500);
+    }, 600);
 });
 
 // Slider in the header
