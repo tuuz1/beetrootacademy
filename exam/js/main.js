@@ -1,12 +1,13 @@
-let newsPhoto = [];
-let newsTitle = [];
-let newsText = [];
-let newsAuthorName = [];
-let newsAuthorPhoto = [];
-let newsDate = [];
-let qtySlides = 4;
+// let newsPhoto = [];
+// let newsTitle = [];
+// let newsText = [];
+// let newsAuthorName = [];
+// let newsAuthorPhoto = [];
+// let newsDate = [];
+// let qtySlides = 4;
 
 $.get('https://bo.edifear.com/sliders').then((data) => {
+    let qtySlides = data.length;
     for (let i = 0; i < qtySlides; i++) {
         $('.news__slider').append(`
             <div class="slide">
@@ -16,21 +17,22 @@ $.get('https://bo.edifear.com/sliders').then((data) => {
                 <div class="slide__content-wrapper">
                     <div class="slide__text-wrapper">
                         <div class="slide__title">
-
+                            ${data[i].title}
                         </div>
                         <div class="slide__text">
+                        ${data[i].text}
                         </div>
                     </div>
                     <div class="slide__info">
                         <div class="info__author-photo">
-                            <img src="https://bo.edifear.com/" alt="">
+                            <img src="https://bo.edifear.com/${data[i].author_photo.url}" alt="">
                         </div>
                         <div class="info__text-wrapper">
                             <div class="info__author-name">
-
+                                ${data[i].author_name}
                             </div>
                             <div class="info__date">
-
+                                ${data[i].date}
                             </div>
                         </div>
                     </div>
@@ -39,7 +41,6 @@ $.get('https://bo.edifear.com/sliders').then((data) => {
         `);
     }
 
-    // let item_length = $('.news__slider > div').length - 1;
     // Слайдер новин
     $('.news__slider').slick({
         dots: true,
@@ -49,11 +50,10 @@ $.get('https://bo.edifear.com/sliders').then((data) => {
         nextArrow: '<div class="arrow-next-wrapper"><svg class="arrow-next"><use xlink:href="sprite.svg#arrow-right"></use></svg></div>',
         autoplay: true,
         autoplaySpeed: 4000,
-        infinite: false,
-    })
+        infinite: true,
+    });
 });
 
-// let body = $('body');
 
 // Плавна прокрутка до певного блоку
 $('.js-scroll').click(function (event) {

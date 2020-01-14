@@ -329,6 +329,12 @@ a {
   color: #4b5562;
 }
 
+.logo__icon {
+  height: 50px;
+  width: 250px;
+  fill: #fff;
+}
+
 .liner {
   width: 60px;
   height: 1px;
@@ -348,12 +354,12 @@ a {
   width: 200px;
   height: 50px;
   text-transform: uppercase;
-  border: 2px solid #4b5562;
+  border: 1px solid #4b5562;
   border-radius: 1px;
   background-color: #fff;
   outline: none;
   cursor: pointer;
-  font-weight: 700;
+  font-weight: 500;
   color: #2c4058;
   display: flex;
   justify-content: center;
@@ -421,11 +427,6 @@ a {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-}
-
-.header .logo__icon {
-  height: 50px;
-  fill: #fff;
 }
 
 .header .nav__list {
@@ -829,4 +830,108 @@ a {
 
 .gallery .small-photo-wrapper:nth-of-type(2) {
   padding-bottom: 10px;
+}
+
+.map {
+  height: 700px;
+  background-color: gainsboro;
+}
+
+.footer {
+  background: url(../images/footer-background.jpg) no-repeat center;
+  background-size: cover;
+  position: relative;
+}
+
+.footer .container {
+  max-width: 800px;
+}
+
+.footer__inner {
+  min-height: 500px;
+  padding-top: 200px;
+}
+
+.footer__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__copyright {
+  color: white;
+  font-size: .8rem;
+  font-family: "Gotham", sans-serif;
+  margin-top: 40px;
+}
+
+.footer__form-wrapper {
+  width: 800px;
+  height: 450px;
+  background-color: #fff;
+  padding: 50px;
+  position: absolute;
+  bottom: calc(100% - 150px);
+  background: #fff url(../images/form-background.png) no-repeat bottom;
+  background-size: contain;
+}
+
+.footer__form-wrapper .liner {
+  background-color: #4b5562;
+}
+
+.footer__form-wrapper .form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__form-wrapper .form__info {
+  width: 50%;
+}
+
+.footer__form-wrapper .form__icon {
+  fill: #7e5aff;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.footer__form-wrapper .form__title {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.footer__form-wrapper .form__button-wrapper {
+  flex-grow: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.footer__form-wrapper .info__item {
+  display: flex;
+  font-family: "Gotham", sans-serif;
+  color: inherit;
+  margin-bottom: 40px;
+}
+
+.footer__form-wrapper .info__item:last-of-type {
+  margin: 0;
+}
+
+.footer__form-wrapper .input-field {
+  height: 40px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgba(44, 64, 88, 0.5);
+  margin-bottom: 20px;
+}
+
+.footer__form-wrapper .input-field:focus {
+  border-bottom: 1px solid #2c4058;
+}
+
+.footer__form-inner {
+  display: flex;
 }

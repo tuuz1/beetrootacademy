@@ -298,8 +298,8 @@
         </section>
         <footer class="footer js-section">
             <div class="container">
-                <div class="footer-inner">
-                    <div class="footer-top">
+                <div class="footer__inner">
+                    <div class="footer__top">
                         <div class="logo__wrapper">
                             <svg class="logo__icon">
                                 <use xlink:href="sprite.svg#logotype"></use>
@@ -331,7 +331,68 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="footer__copirate"></div>
+                    <div class="footer__copyright">
+                        Copyrights © 2017 Monticello Group
+                    </div>
+                    <div class="footer__form-wrapper">
+                        <div class="form__title-wrapper title-block">
+                            <div class="liner"></div>
+                            <div class="form__title">
+                                GET IN TOUCH
+                            </div>
+                        </div>
+                        <div class="footer__form-inner">
+                            <div class="form__info">
+                                <a class="info__item" href="#" target="_blank">
+                                    <div class="info__item-icon">
+                                        <svg class="form__icon">
+                                            <use xlink:href="sprite.svg#location"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="info__item-text">
+                                        91 Nolan Extensions Suite 670
+                                    </div>
+                                </a>
+                                <a class="info__item" href="tel:+001 356-868-2454">
+                                    <div class="info__item-icon">
+                                        <svg class="form__icon">
+                                            <use xlink:href="sprite.svg#phone"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="info__item-text">
+                                        +001 356-868-2454
+                                    </div>
+                                </a>
+                                <a class="info__item" href="mailto:gahuy93@gmail.com">
+                                    <div class="info__item-icon">
+                                        <svg class="form__icon">
+                                            <use xlink:href="sprite.svg#mail"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="info__item-text">
+                                        gahuy93@gmail.com
+                                    </div>
+                                </a>
+                                <a class="info__item">
+                                    <div class="info__item-icon">
+                                        <svg class="form__icon">
+                                            <use xlink:href="sprite.svg#clock"></use>
+                                        </svg>
+                                    </div>
+                                    <div class="info__item-text">
+                                        From 07:05AM to 19:30PM
+                                    </div>
+                                </a>
+                            </div>
+                            <form action="" class="form">
+                                <input type="text" class="input-field" placeholder="Your Name">
+                                <input type="text" class="input-field" placeholder="Your Email">
+                                <div class="form__button-wrapper">
+                                    <button class="btn" type="submit">SUBMIT</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </footer>
@@ -341,7 +402,25 @@
 
     <script src="./js/jQuery.js"></script>
     <script src="./js/slick.js"></script>
+    <!-- <script src="./js/map.js"></script> -->
+    <script>
+        function initMap() {
+            var rivne = { lat: 50.616291, lng: 26.253672 };
+            var map = new google.maps.Map(document.getElementById('section5'), {
+                zoom: 16,
+                center: rivne,
+
+            });
+            var marker = new google.maps.Marker({ position: rivne, map: map });
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPYIaZpyfoSrKa52lzzpuIHXYhQ-Cujfs&callback=initMap"
+        async defer></script>
+
+
+
     <script src="./js/main.js"></script>
+
     <script>
 
     </script>

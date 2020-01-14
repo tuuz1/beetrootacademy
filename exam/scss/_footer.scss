@@ -1,0 +1,87 @@
+.footer {
+    background: url(../images/footer-background.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+
+    .container {
+        max-width: 800px;
+    }
+    &__inner {
+        min-height: 500px;
+        padding-top: 200px;
+    }
+    &__top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__copyright {
+        color: white;
+        font-size: .8rem;
+        font-family: $title-font;
+        margin-top: 40px;
+    }
+    &__form-wrapper {
+        width: 800px;
+        height: 450px;
+        background-color: #fff;
+        padding: 50px;
+        position: absolute;
+        bottom: calc(100% - 150px);
+
+        background: #fff url(../images/form-background.png) no-repeat bottom;
+        background-size: contain;
+
+        .liner {
+            background-color: #4b5562;
+        }
+        .form {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            &__info {
+                width: 50%;
+            }
+            &__icon {
+                fill: #7e5aff;
+                width: 20px;
+                height: 20px;
+                margin-right: 10px;
+            }
+
+            &__title {
+                margin-top: 30px;
+                margin-bottom: 50px;
+            }
+            &__button-wrapper {
+                flex-grow: 1;
+                display: flex;
+                align-items: flex-end;
+                justify-content: flex-end;
+            }
+        }
+        .info__item {
+            display: flex;
+            font-family: $title-font;
+            color: inherit;
+            margin-bottom: 40px;
+        }
+        .info__item:last-of-type {
+            margin: 0;
+        }
+        .input-field {
+            height: 40px;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid rgba(#2c4058, .5);
+            margin-bottom: 20px;
+        }
+        .input-field:focus {
+            border-bottom: 1px solid rgba(#2c4058, 1);
+        }
+        
+    }
+    &__form-inner {
+        display: flex;
+    }
+}

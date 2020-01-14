@@ -1,0 +1,5 @@
+.footer {
+  background: url(../images/footer-background.jpg) no-repeat center;
+  background-size: cover; }
+  .footer__inner {
+    min-height: 500px; }
