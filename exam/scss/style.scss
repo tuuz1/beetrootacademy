@@ -89,6 +89,7 @@ a {
     }
     a {
         display: flex;
+        color: white;
     }
 }
 
@@ -97,7 +98,7 @@ a {
     &__dot {
         width: 10px;
         height: 10px;
-        border: 1px solid #fff;
+        border: 1px solid rgb(204, 201, 201);
         border-radius: 50%;
         margin-right: 10px;
         margin-left: 10px;
@@ -118,8 +119,11 @@ a {
     }
 }
 .is-selected .navbar__dot{
-    background-color: #000;
+    background-color: rgb(93, 95, 192);
 }
+
+
+
 
 @import 'header';
 @import 'projects';
@@ -127,3 +131,4 @@ a {
 @import 'gallery';
 @import 'map';
 @import 'footer';
+@import 'adaptive';

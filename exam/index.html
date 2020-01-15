@@ -25,12 +25,6 @@
                         <nav class="navigation">
                             <ul class="nav__list">
                                 <li class="nav__item">
-                                    <a href="#" class="nav__link">
-                                        <div class="nav__item-elem"></div>
-                                        <div class="nav__item-text">ABOUT US</div>
-                                    </a>
-                                </li>
-                                <li class="nav__item">
                                     <a href="#section2" class="nav__link js-scroll">
                                         <div class="nav__item-elem"></div>
                                         <div class="nav__item-text">PROJECTS</div>
@@ -45,10 +39,31 @@
                                 <li class="nav__item">
                                     <a href="#section4" class="nav__link js-scroll">
                                         <div class="nav__item-elem"></div>
+                                        <div class="nav__item-text">GALLERY</div>
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#section5" class="nav__link js-scroll">
+                                        <div class="nav__item-elem"></div>
                                         <div class="nav__item-text">CONTACT</div>
                                     </a>
                                 </li>
                             </ul>
+                            <div class="burger">
+                                <!-- <svg class="burger__icon">
+                                    <use xlink:href="sprite1.svg#menu"></use>
+                                </svg> -->
+                                <input type="checkbox" id="checkbox4" class="checkbox4 visuallyHidden">
+                                <label for="checkbox4">
+                                    <div class="hamburger hamburger4">
+                                        <span class="bar bar1"></span>
+                                        <span class="bar bar2"></span>
+                                        <span class="bar bar3"></span>
+                                        <span class="bar bar4"></span>
+                                        <span class="bar bar5"></span>
+                                    </div>
+                                </label>
+                            </div>
                         </nav>
                         <div class="social__box">
                             <ul class="social__list">
@@ -157,10 +172,15 @@
                     <li>
                         <a href="#section4" data-number="4">
                             <span class="navbar__dot"></span>
+                            <span class="navbar__label">Gallery</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#section5" data-number="5">
+                            <span class="navbar__dot"></span>
                             <span class="navbar__label">Contact</span>
                         </a>
                     </li>
-                    <!-- other navigation items here-->
                 </ul>
             </nav>
 
@@ -297,6 +317,68 @@
 
         </section>
         <footer class="footer js-section">
+            <div class="footer__form-wrapper">
+                <div class="form__title-wrapper title-block">
+                    <div class="liner"></div>
+                    <div class="form__title">
+                        GET IN TOUCH
+                    </div>
+                </div>
+                <div class="footer__form-inner">
+                    <div class="form__info">
+                        <a class="info__item" href="#" target="_blank">
+                            <div class="info__item-icon">
+                                <svg class="form__icon">
+                                    <use xlink:href="sprite.svg#location"></use>
+                                </svg>
+                            </div>
+                            <div class="info__item-text">
+                                91 Nolan Extensions Suite 670
+                            </div>
+                        </a>
+                        <a class="info__item" href="tel:+001 356-868-2454">
+                            <div class="info__item-icon">
+                                <svg class="form__icon">
+                                    <use xlink:href="sprite.svg#phone"></use>
+                                </svg>
+                            </div>
+                            <div class="info__item-text">
+                                +001 356-868-2454
+                            </div>
+                        </a>
+                        <a class="info__item" href="mailto:gahuy93@gmail.com">
+                            <div class="info__item-icon">
+                                <svg class="form__icon">
+                                    <use xlink:href="sprite.svg#mail"></use>
+                                </svg>
+                            </div>
+                            <div class="info__item-text">
+                                gahuy93@gmail.com
+                            </div>
+                        </a>
+                        <a class="info__item">
+                            <div class="info__item-icon">
+                                <svg class="form__icon">
+                                    <use xlink:href="sprite.svg#clock"></use>
+                                </svg>
+                            </div>
+                            <div class="info__item-text">
+                                From 07:05AM to 19:30PM
+                            </div>
+                        </a>
+                    </div>
+                    <form action="" class="form">
+                        <input type="text" class="input-field input-name" placeholder="Your Name">
+                        <input type="email" class="input-field input-email" placeholder="Your Email">
+                        <input type="password" class="input-field input-password" placeholder="Your Password">
+                        <div class="form__button-wrapper">
+                            <button class="btn" type="submit">SUBMIT</button>
+                        </div>
+                        <div class="form-submit" style="display: none;">form-submit</div>
+                        <div class="form-error" style="display: none;">form-error</div>
+                    </form>
+                </div>
+            </div>
             <div class="container">
                 <div class="footer__inner">
                     <div class="footer__top">
@@ -334,65 +416,7 @@
                     <div class="footer__copyright">
                         Copyrights © 2017 Monticello Group
                     </div>
-                    <div class="footer__form-wrapper">
-                        <div class="form__title-wrapper title-block">
-                            <div class="liner"></div>
-                            <div class="form__title">
-                                GET IN TOUCH
-                            </div>
-                        </div>
-                        <div class="footer__form-inner">
-                            <div class="form__info">
-                                <a class="info__item" href="#" target="_blank">
-                                    <div class="info__item-icon">
-                                        <svg class="form__icon">
-                                            <use xlink:href="sprite.svg#location"></use>
-                                        </svg>
-                                    </div>
-                                    <div class="info__item-text">
-                                        91 Nolan Extensions Suite 670
-                                    </div>
-                                </a>
-                                <a class="info__item" href="tel:+001 356-868-2454">
-                                    <div class="info__item-icon">
-                                        <svg class="form__icon">
-                                            <use xlink:href="sprite.svg#phone"></use>
-                                        </svg>
-                                    </div>
-                                    <div class="info__item-text">
-                                        +001 356-868-2454
-                                    </div>
-                                </a>
-                                <a class="info__item" href="mailto:gahuy93@gmail.com">
-                                    <div class="info__item-icon">
-                                        <svg class="form__icon">
-                                            <use xlink:href="sprite.svg#mail"></use>
-                                        </svg>
-                                    </div>
-                                    <div class="info__item-text">
-                                        gahuy93@gmail.com
-                                    </div>
-                                </a>
-                                <a class="info__item">
-                                    <div class="info__item-icon">
-                                        <svg class="form__icon">
-                                            <use xlink:href="sprite.svg#clock"></use>
-                                        </svg>
-                                    </div>
-                                    <div class="info__item-text">
-                                        From 07:05AM to 19:30PM
-                                    </div>
-                                </a>
-                            </div>
-                            <form action="" class="form">
-                                <input type="text" class="input-field" placeholder="Your Name">
-                                <input type="text" class="input-field" placeholder="Your Email">
-                                <div class="form__button-wrapper">
-                                    <button class="btn" type="submit">SUBMIT</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </footer>
@@ -409,7 +433,7 @@
             var map = new google.maps.Map(document.getElementById('section5'), {
                 zoom: 16,
                 center: rivne,
-
+                disableDefaultUI: true,
             });
             var marker = new google.maps.Marker({ position: rivne, map: map });
         }

@@ -1,11 +1,3 @@
-// let newsPhoto = [];
-// let newsTitle = [];
-// let newsText = [];
-// let newsAuthorName = [];
-// let newsAuthorPhoto = [];
-// let newsDate = [];
-// let qtySlides = 4;
-
 $.get('https://bo.edifear.com/sliders').then((data) => {
     let qtySlides = data.length;
     for (let i = 0; i < qtySlides; i++) {
@@ -51,6 +43,22 @@ $.get('https://bo.edifear.com/sliders').then((data) => {
         autoplay: true,
         autoplaySpeed: 4000,
         infinite: true,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    arrows: false,
+                }
+            },
+        ]
     });
 });
 
@@ -85,11 +93,14 @@ $(window).on('scroll', function () {
     updateNavigation();
 });
 
+
 //smooth scroll to the section
 navigationItems.on('click', function (event) {
     event.preventDefault();
     smoothScroll($(this.hash));
 });
+
+
 
 function updateNavigation() {
     contentSections.each(function () {
@@ -111,6 +122,42 @@ function smoothScroll(target) {
 }
 
 
+// mobile menu 
+let menu = $('.nav__list');
+$('.checkbox4').on('change', function () {
+    menu.toggleClass('menu-dropdown');
+});
+
+//form
+$('.form').on('submit', function (e) {
+    e.preventDefault();
+    let name = $('.input-name').val();
+    let email = $('.input-email').val();
+    let password = $('.input-password').val();
+    let data = { name: name, email: email, password: password };
+    console.log(data);
+    sendMessage(data);
+})
+
+function sendMessage(obj) {
+    $.ajax({
+        url: 'https://bo.edifear.com/forms',
+        method: 'POST',
+        data: {
+            name: obj.name,
+            email: obj.email,
+            password: obj.password,
+        },
+        success: function () {
+            $('.form-submit').css('display', 'block');
+            setTimeout(() => { $('.form-submit').css('display', 'none') }, 2000)
+        },
+        error: function () {
+            $('.form-error').css('display', 'block');
+            setTimeout(() => { $('.form-error').css('display', 'none') }, 2000)
+        }
+    })
+};
 
 
 // Прокрутка слайдера мишкой
